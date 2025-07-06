@@ -31,7 +31,7 @@ export default function About() {
             About Dr. Serena Blake – Experienced Clinical Psychologist in Los Angeles, CA
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Hi, I'm Dr. Serena Blake
+            Hi, I&apos;m Dr. Serena Blake
           </h2>
           <p className="text-gray-800 mb-4 leading-relaxed">
             With over <strong>8 years of dedicated experience</strong> in individual and couples therapy, I truly enjoy working with a wide variety of people of different ages, backgrounds, and presenting concerns. My goal is to help you build credibility in your own journey and educate you on pathways to healing.
@@ -40,7 +40,7 @@ export default function About() {
             My therapeutic approach blends evidence-based practices like <strong>cognitive-behavioral therapy</strong> and mindfulness to foster <strong>personal growth</strong>, the strengthening of <strong>relationships</strong>, and a greater sense of <strong>inner peace</strong>. I am passionate about helping clients grow in their capacity to love and thrive.
           </p>
           <p className="text-gray-800 leading-relaxed">
-            Whether you are seeking to heal from <strong>past wounds</strong>, discover your <strong>life's purpose</strong>, or build resilience, I offer a supportive space to explore these areas of life. Together, we can work towards achieving your goals for a more fulfilling and purposeful existence.
+            Whether you are seeking to heal from <strong>past wounds</strong>, discover your <strong>life&apos;s purpose</strong>, or build resilience, I offer a supportive space to explore these areas of life. Together, we can work towards achieving your goals for a more fulfilling and purposeful existence.
           </p>
         </div>
       </div>

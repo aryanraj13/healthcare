@@ -98,7 +98,7 @@ export default function ContactSection() {
                 with you soon, usually within one business day. This form is safe, private, and completely free.
               </p>
 
-              <form onSubmit={handleSubmit} className="space-y-4">
+              <form onSubmit={handleSubmit} className="space-y-4">&apos;
                 <div>
                   <label className="block mb-1 text-[#174249]">Name</label>
                   <input
@@ -184,7 +184,7 @@ export default function ContactSection() {
 
                 <div className="border border-[#C5D3C9] rounded p-4 flex items-center">
                   <input type="checkbox" required className="mr-2" />
-                  <span className="text-[#174249]">I'm not a robot</span>
+                  <span className="text-[#174249]">I&apos;m not a robot</span>
                 </div>
 
                 <button
@@ -202,7 +202,7 @@ export default function ContactSection() {
           ) : (
             <div className="text-center text-[#174249]">
               <h3 className="text-2xl font-semibold mb-4">Thank you!</h3>
-              <p>We've received your message and Dr. Serena Blake will contact you shortly.</p>
+              <p>We&apos;ve received your message and Dr. Serena Blake will contact you shortly.</p>
             </div>
           )}
         </div>
