@@ -98,7 +98,7 @@ export default function ContactSection() {
                 with you soon, usually within one business day. This form is safe, private, and completely free.
               </p>
 
-              <form onSubmit={handleSubmit} className="space-y-4">&apos;
+              <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
                   <label className="block mb-1 text-[#174249]">Name</label>
                   <input
