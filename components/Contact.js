@@ -107,7 +107,7 @@ export default function ContactSection() {
                     value={form.name}
                     onChange={handleChange}
                     placeholder="Name"
-                    className="w-full border border-[#C5D3C9] rounded px-3 py-2 bg-white focus:outline-none"
+                    className="w-full border border-[#C5D3C9] rounded px-3 py-2 bg-white focus:outline-none text-[#174249]"
                     required
                   />
                   {formErrors.name && <p className="text-red-600 text-sm mt-1">{formErrors.name}</p>}
@@ -121,7 +121,7 @@ export default function ContactSection() {
                     value={form.email}
                     onChange={handleChange}
                     placeholder="you@example.com"
-                    className="w-full border border-[#174249] rounded px-3 py-2 bg-white focus:outline-none"
+                    className="w-full border border-[#174249] rounded px-3 py-2 bg-white focus:outline-none text-[#174249]"
                     required
                   />
                   {formErrors.email && <p className="text-red-600 text-sm mt-1">{formErrors.email}</p>}
@@ -135,7 +135,7 @@ export default function ContactSection() {
                     value={form.phone}
                     onChange={handleChange}
                     placeholder="(555) 234-5678"
-                    className="w-full border border-[#C5D3C9] rounded px-3 py-2 bg-white focus:outline-none"
+                    className="w-full border border-[#C5D3C9] rounded px-3 py-2 bg-white focus:outline-none text-[#174249]"
                   />
                 </div>
 
@@ -146,7 +146,7 @@ export default function ContactSection() {
                     value={form.message}
                     onChange={handleChange}
                     placeholder="How can I help you?"
-                    className="w-full border border-[#C5D3C9] rounded px-3 py-2 bg-white focus:outline-none"
+                    className="w-full border border-[#C5D3C9] rounded px-3 py-2 bg-white focus:outline-none text-[#174249]"
                     rows={3}
                   />
                 </div>
@@ -159,7 +159,7 @@ export default function ContactSection() {
                     value={form.contactTime}
                     onChange={handleChange}
                     placeholder="e.g., Mornings, Afternoons, Evenings, Weekends"
-                    className="w-full border border-[#C5D3C9] rounded px-3 py-2 bg-white focus:outline-none"
+                    className="w-full border border-[#C5D3C9] rounded px-3 py-2 bg-white focus:outline-none text-[#174249]"
                     required
                   />
                   {formErrors.contactTime && <p className="text-red-600 text-sm mt-1">{formErrors.contactTime}</p>}
@@ -171,7 +171,7 @@ export default function ContactSection() {
                     name="contactMethod"
                     value={form.contactMethod}
                     onChange={handleChange}
-                    className="w-full border border-[#C5D3C9] rounded px-3 py-2 bg-white focus:outline-none"
+                    className="w-full border border-[#C5D3C9] rounded px-3 py-2 bg-white focus:outline-none text-[#174249]"
                     required
                   >
                     <option value="">Select preferred method</option>
@@ -182,7 +182,7 @@ export default function ContactSection() {
                   {formErrors.contactMethod && <p className="text-red-600 text-sm mt-1">{formErrors.contactMethod}</p>}
                 </div>
 
-                <div className="border border-[#C5D3C9] rounded p-4 flex items-center">
+                <div className="border border-[#C5D3C9] rounded p-4 flex items-center text-[#174249]">
                   <input type="checkbox" required className="mr-2" />
                   <span className="text-[#174249]">I&apos;m not a robot</span>
                 </div>
